@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import CameraComponent from './components/CameraComponent'
+import Sample from "./components/sample";
+import Camera from "./components/Camera";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
