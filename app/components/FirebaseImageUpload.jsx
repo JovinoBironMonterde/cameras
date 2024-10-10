@@ -31,7 +31,7 @@ function FirebaseImageUpload() {
       // Simulate loading time
       setTimeout(() => {
         setIsLoading(false);
-      }, 5000);
+      }, 50000);
     }, []);
 
     return (
@@ -46,9 +46,10 @@ function FirebaseImageUpload() {
                 </div>
             ))}
             </div>
-            {/* <div className="Overly">
-            {isLoading ? <Loading /> : <div className="text">Wait to load the image...</div>}
-            </div> */}
+            <div className="Overly">
+            {isLoading ? <Loading /> : <div className="text">Please wait...</div>}
+            <div className="subtext">Click allow camera to view the image</div>
+            </div>
         </div>
 
     );

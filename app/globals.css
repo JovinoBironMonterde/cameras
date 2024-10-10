@@ -15,6 +15,7 @@
 }
 
 body {
+  position: relative;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +40,30 @@ body {
   background-color: rgb(2, 85, 85);
   z-index: 99999;
 }
-.text{
+.beforreOverly{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 20px;
+  z-index: 9999999999;
+}
+.beforreOverly h1{
   font-size: 30px;
+  color: #ededed;
+}
+.beforreOverly h5{
+  font-size: 18px;
+  color: #ededed;
+}
+
+.text{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #ededed;
+}
+.subtext{
+  font-size: 18px;
+  text-align: center;
   color: #ededed;
 }
