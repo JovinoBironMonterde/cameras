@@ -46,9 +46,9 @@ function FirebaseImageUpload() {
                 </div>
             ))}
             </div>
-            <div className="Overly">
+            {/* <div className="Overly">
             {isLoading ? <Loading /> : <div className="text">Wait to load the image...</div>}
-            </div>
+            </div> */}
         </div>
 
     );
